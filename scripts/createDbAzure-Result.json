@@ -1,0 +1,144 @@
+{
+    "id": "/subscriptions/7280f1c7-4a4e-401e-9d9f-da94e8b0e7e9/resourceGroups/dev",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "dev",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+}
+  
+{
+    "analyticalStorageConfiguration": {
+      "schemaType": "WellDefined"
+    },
+    "apiProperties": null,
+    "backupPolicy": {
+      "migrationState": null,
+      "periodicModeProperties": {
+        "backupIntervalInMinutes": 240,
+        "backupRetentionIntervalInHours": 8,
+        "backupStorageRedundancy": "Geo"
+      },
+      "type": "Periodic"
+    },
+    "capabilities": [],
+    "connectorOffer": null,
+    "consistencyPolicy": {
+      "defaultConsistencyLevel": "Session",
+      "maxIntervalInSeconds": 5,
+      "maxStalenessPrefix": 100
+    },
+    "cors": [],
+    "createMode": null,
+    "databaseAccountOfferType": "Standard",
+    "defaultIdentity": "FirstPartyIdentity",
+    "disableKeyBasedMetadataWriteAccess": false,
+    "disableLocalAuth": false,
+    "documentEndpoint": "https://juniperdevcosmos.documents.azure.com:443/",
+    "enableAnalyticalStorage": false,
+    "enableAutomaticFailover": false,
+    "enableCassandraConnector": null,
+    "enableFreeTier": false,
+    "enableMultipleWriteLocations": true,
+    "failoverPolicies": [
+      {
+        "failoverPriority": 0,
+        "id": "juniperdevcosmos-centralus",
+        "locationName": "Central US"
+      },
+      {
+        "failoverPriority": 1,
+        "id": "juniperdevcosmos-northcentralus",
+        "locationName": "North Central US"
+      }
+    ],
+    "id": "/subscriptions/7280f1c7-4a4e-401e-9d9f-da94e8b0e7e9/resourceGroups/dev/providers/Microsoft.DocumentDB/databaseAccounts/juniperdevcosmos",
+    "identity": {
+      "principalId": null,
+      "tenantId": null,
+      "type": "None",
+      "userAssignedIdentities": null
+    },
+    "instanceId": "e01513d5-d8cd-46ae-ac75-66df42003430",
+    "ipRules": [],
+    "isVirtualNetworkFilterEnabled": false,
+    "keyVaultKeyUri": null,
+    "kind": "GlobalDocumentDB",
+    "location": "Central US",
+    "locations": [
+      {
+        "documentEndpoint": "https://juniperdevcosmos-centralus.documents.azure.com:443/",
+        "failoverPriority": 0,
+        "id": "juniperdevcosmos-centralus",
+        "isZoneRedundant": false,
+        "locationName": "Central US",
+        "provisioningState": "Succeeded"
+      },
+      {
+        "documentEndpoint": "https://juniperdevcosmos-northcentralus.documents.azure.com:443/",
+        "failoverPriority": 1,
+        "id": "juniperdevcosmos-northcentralus",
+        "isZoneRedundant": false,
+        "locationName": "North Central US",
+        "provisioningState": "Succeeded"
+      }
+    ],
+    "name": "juniperdevcosmos",
+    "networkAclBypass": "None",
+    "networkAclBypassResourceIds": [],
+    "privateEndpointConnections": null,
+    "provisioningState": "Succeeded",
+    "publicNetworkAccess": "Enabled",
+    "readLocations": [
+      {
+        "documentEndpoint": "https://juniperdevcosmos-centralus.documents.azure.com:443/",
+        "failoverPriority": 0,
+        "id": "juniperdevcosmos-centralus",
+        "isZoneRedundant": false,
+        "locationName": "Central US",
+        "provisioningState": "Succeeded"
+      },
+      {
+        "documentEndpoint": "https://juniperdevcosmos-northcentralus.documents.azure.com:443/",
+        "failoverPriority": 1,
+        "id": "juniperdevcosmos-northcentralus",
+        "isZoneRedundant": false,
+        "locationName": "North Central US",
+        "provisioningState": "Succeeded"
+      }
+    ],
+    "resourceGroup": "dev",
+    "restoreParameters": null,
+    "systemData": {
+      "createdAt": "2021-07-28T19:13:32.251569+00:00",
+      "createdBy": null,
+      "createdByType": null,
+      "lastModifiedAt": null,
+      "lastModifiedBy": null,
+      "lastModifiedByType": null
+    },
+    "tags": {},
+    "type": "Microsoft.DocumentDB/databaseAccounts",
+    "virtualNetworkRules": [],
+    "writeLocations": [
+      {
+        "documentEndpoint": "https://juniperdevcosmos-centralus.documents.azure.com:443/",
+        "failoverPriority": 0,
+        "id": "juniperdevcosmos-centralus",
+        "isZoneRedundant": false,
+        "locationName": "Central US",
+        "provisioningState": "Succeeded"
+      },
+      {
+        "documentEndpoint": "https://juniperdevcosmos-northcentralus.documents.azure.com:443/",
+        "failoverPriority": 1,
+        "id": "juniperdevcosmos-northcentralus",
+        "isZoneRedundant": false,
+        "locationName": "North Central US",
+        "provisioningState": "Succeeded"
+      }
+    ]
+}

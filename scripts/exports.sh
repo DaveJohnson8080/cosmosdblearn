@@ -1,0 +1,2 @@
+export EndpointUrl=https://juniperdevcosmos.documents.azure.com:443/
+export PrimaryKey=eEnqhZnr1IQRnJz4hqvRhDKCTFIiIWRYwTtROZFF4ZDBUMINCLCgUzWWASzP79ptWscSHSYR3uhkW6pjDYauVg==
